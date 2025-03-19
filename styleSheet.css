@@ -1,0 +1,115 @@
+header{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+nav{
+    background-color: grey;
+    padding: 5px;
+}
+
+nav ul li{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color : #b2b2b2;
+}
+
+h1{
+    text-align:center;
+}
+
+h2{
+  float: right;
+}
+
+h3{
+   color: grey;
+}
+
+main{
+    color: white;
+    background-color: black;
+
+}
+
+body {
+   color: white;
+   background-color: black;
+}
+
+aside {
+    width: 18.5%;
+    float: top;
+    border: .5px solid yellow;
+    background-color:black;
+    color:white;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+footer{
+        clear: both;
+        border: 1px solid orange;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        background-color: grey;
+        text-align: center;
+}
+
+footer nav{
+        text-align:center;
+        color: white;
+        background-color: grey;
+}
+
+footer nav ul li{
+    background-color:grey;
+}
+
+td{
+    color:white;
+    background-color:black;
+    width:50%;
+    vertical-align:top;
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+    }
+
+
+#active{
+    background-color:green;
+}
+
+/* ID 1 */
+/* ID 2 */
+/* Class */
+/* Column Class */
+.col_ID{
+    column-count: 4;
+    column-rule: 10px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
