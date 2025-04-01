@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Contact Form">
+        <meta name="keywords" content="Contact,Email,Number">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style/styleSheet.css">
+        <link rel="icon" href="images/cat_claw.png" type="image/png" sizes="16x16">
+        <script src="https://kit.fontawesome.com/50fd63f371.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <header>
+                <img style="float: left; height: 3em; width:3em;background-color:white;" src="images/cat_claw.png" alt="logo">
+                <h1> Contact Form</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home</a></li>
+                    <li> <a href="stats.html"> Statistics</a></li>
+                    <li> <a href="media.html"> Media</a></li>
+                    <li id="active"> <a href="contact.html"> Contact Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h3> Contact Form </h3>
+                <form action="http://foo.com" method="get"></form>
+                <label for="first_name"> First Name<span class="required">*</span></label>
+                <input type="text" id="first_name" name="first_name" autofocus required> <br>
+                <label for="last_name"> Last Name <span class="required">*</span></label>
+                <input type="text" id="last_name" name="last_name"> <br>
+                <label for="email"> Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="johndoe@example.com"> <br>
+                <label for="number"> Number</label>
+                <input type="text" id="number" name="number" required placeholder="+353 xxx xxx xxxx"> <br>
+                <button type="submit" style="margin-left: 5em;">Submit</button>
+        </main>     
+    </body>
+    <footer>  
+        <nav id="ending"> 
+        <ul>
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="stats.html"> Statistics</a></li>
+            <li> <a href="media.html"> Media</a></li>
+            <li> <a href="contact.html"> Contact Form</a></li>
+        </ul>
+       </nav>
+        <center><p style="color:white;"> &#169;  2025 Web Development Project <i class="fa-solid fa-cat"></i> </p></center>
+    </footer>
+    
+</html>

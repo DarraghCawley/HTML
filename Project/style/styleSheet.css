@@ -1,0 +1,168 @@
+nav{
+    background-color: grey;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #B2b2b2;
+    display:inline;
+    padding: 1em;
+    margin: 0.3em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color : rgb(112,27,186)
+}
+
+header {
+    background-image: url(../images/images.png);
+
+    height: 12.5em;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+footer{
+   clear: both;
+   padding: 0;
+   margin: 0;
+   position:fixed;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   text-align: center;
+}
+
+footer nav{
+    text-align:center;
+    color: white;
+}
+
+footer nav ul li{
+    background-color:grey;
+}
+
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    background-color:black;
+    color:white;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+#aboutUs{
+    text-align: center;
+    color: white;
+}
+main{
+    color:white;
+    background-color:black;
+    margin-top: 100px;
+}
+
+.col_detail {
+    column-count: 2;
+    column-gap: 1px;
+    padding: 20px;
+}
+
+#col_2 {
+    column-count: 3;
+    column-rule :1px solid white;
+    column-gap:20px;
+    padding:20px;
+}
+
+#col_image{
+    height:20%;
+    width:66%;
+}
+
+#ending{
+    color:white;
+    background-color:grey;
+}
+
+body{
+    background-color:black;
+}
+
+#active{
+    background-color:green;
+}
+
+label {
+    float:left;
+    width:112px;
+    padding-right:10px;
+    text-align:right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    width: 220px;
+}
+
+.required{
+    font-weight:bold;
+    color:red;
+}
+
+.separate {
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+#media_list{
+    list-style-type:circle;
+}
+
+table {
+    width: 80%;
+    border: 1px solid #ccc;
+    max-width: 50em;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+#stats{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;
+}
